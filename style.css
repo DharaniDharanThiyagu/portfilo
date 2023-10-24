@@ -1,0 +1,193 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid hsl(36, 94%, 43%);
+}
+/* Styling for the "About Me" section */
+/* Styling for the "About Me" section */
+#about {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+header p span{
+    color: orange;
+}
+
+/* Styling for the "Skills" section */
+#skills {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#skills h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Style for individual skill items (e.g., add icons, colors, etc.) */
+/* Corrected bullet character in CSS */
+#skills li::before {
+    content: "\2022"; /* Bullet character */
+    color: #ff6f61; /* Customize the color for bullet points */
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/* Styling for the "Projects" section */
+#projects {
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#projects h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+.project p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.project a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+/* Styling for the "Contact" section */
+#contact {
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 16px;
+    color: #555;
+}
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content p:last-child {
+    font-size: 14px;
+}
+
+
+
+
+
+/* Add more custom styles as needed */
